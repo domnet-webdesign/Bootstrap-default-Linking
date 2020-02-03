@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>E-Commerce</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="css/fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
+
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation starts Here -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand  mr-5" href="#">Ada Dishes</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Our Menu
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Local Dishes</a>
+                            <a class="dropdown-item" href="#">Continental Dishes</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto fn1">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-shopping-cart">&nbsp;&nbsp;</i>Go To Cart</a>
+                        </li>
+                        <li class="nav-item my-2 my-lg-0">
+                            <a class="nav-link btn" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item my-2 my-lg-0">
+                            <a class="nav-link btn" href="register.html">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Navigation ends -->
+
+    <!-- Registration starts -->
+    <section id="registration text-center">
+        <div class="regitration-header">
+            <h1 class="display-4 text-center m-5">REGISTER WITH US</h1>
+        </div>
+
+        <!-- registration forms -->
+        <div class="container registration-wrapper">
+            <div class="mt-5 registration-banner">
+                <form method="POST" action="">
+                    <div class="form-group">
+                        <label for="firstname">First Name <span class="important">*</span></label>
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fas fa-user"></i>
+                                </span>
+                                <input class="form-control" type="text" id="firstname" name="firstname">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="firstname">Last Name <span class="important">*</span></label>
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fas fa-user"></i>
+                                </span>
+                                <input class="form-control" id="lastname" name="lastname" type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="firstname">Email <span class="important">*</span></label>
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                                <input class="form-control" id="email" name="email" type="email">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="firstname">Password <span class="important">*</span></label>
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fas fa-lock"></i>
+                                </span>
+                                <input class="form-control" id="password" name="password" type="password" placeholder="Password">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="firstname">Re-Enter Password <span class="important">*</span></label>
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fas fa-lock"></i>
+                                </span>
+                                <input class="form-control" id="repassword" name="repassword" type="password" placeholder="Re-Enter Password">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="firstname">Address <span class="important">*</span></label>   
+                        <div class="input-group input-group-lg fn5" id="">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="fas fa-lock"></i>
+                                </span>
+                                <input class="form-control fn3" name="school_organname" type="text" placeholder="School Name/Organization Name">
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100 mt-3 root-btn font-weight-bold">Submit</button>
+
+                    <div class="terms text-center mt-3">
+                        <p>Signing up signifies you've read and agree to our <br> 
+                            <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>
+                        </p>
+                    </div>
+
+                    <div class="alt-login text-center">
+                    <p>Already have an account? <a href="login.php">Login here</a></p>
+                </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration ends -->
+
+
+
+    <!-- Footer section starts -->
+    <section id="footer-index">
+        <div class="container text-center">
+            <div class="footer-header">
+                <h6 class="m-5">STAY CONNECTED WITH ADA DISHES</h6>
+            </div>
+    
+            <div class="social-icons pb-5">
+                <span class="text-center">
+                    <a href="#"><i class="fab fa-facebook p-2"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </span>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Jquery -->
+    <script src="css/bootstrap/js/jquery-3.4.1.min.js"></script>
+
+    <!-- popper -->
+    <script src="css/bootstrap/js/popper.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="css/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Fontwaesome -->
+    <script src="css/fontawesome/js/fontawesome.min.js"></script>
+</body>
+</html>

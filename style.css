@@ -1,0 +1,88 @@
+/* Default styling Starts*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* Default styling ends*/
+
+/* Navigation styling starts */
+header {
+    background: #011627;
+    border-bottom: .2rem solid #ec5007;
+    
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.navbar-nav .nav-item a {
+    font-size: 1.2rem;
+    color: #fff;
+    padding: 1rem 2rem;
+    font-weight: bold;
+
+}
+
+.navbar-nav .nav-item a:hover {
+    background: #ec5007;
+    border-radius: .4rem;
+}
+
+.navbar-toggler {
+    border-color: #ec5007;
+}
+
+.navbar-toggler-icon {
+    background: #fff;
+}
+
+.fa-shopping-cart {
+    color: #fff;
+}
+
+/* Navigation styling ends */
+
+
+/* Registration page styling starts */
+.important {
+    color: red;
+    font-size: 1.5rem;
+}
+
+.registration-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration-banner label{
+    font-size: large;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 30rem;
+}
+
+.social-icons a {
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.root-btn {
+    background: #ec5007;
+    border: none;
+}
+
+
+
+
+
+
+
+/* Registration page styling ends */
